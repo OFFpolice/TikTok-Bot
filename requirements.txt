@@ -1,2 +1,2 @@
-pip install yt-dlp==2024.3.19.232701.dev0
-pip install aiogram==2.25.2
+aiogram==2.25.2
+yt-dlp==2024.3.19.232701.dev0
