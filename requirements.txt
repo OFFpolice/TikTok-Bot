@@ -1,2 +1,3 @@
 aiogram==2.25.2
 yt-dlp==2024.3.19.232701.dev0
+python-dotenv==1.0.1
