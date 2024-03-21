@@ -34,4 +34,4 @@
 - [**Email**](offpolicedev@gmail.com)
 
 ## Лицензия:
-Этот проект лицензируется по лицензии GNU GENERAL PUBLIC LICENSE — более подробную информацию см. в файле LICENSE.
+Этот проект лицензируется по лицензии GNU GENERAL PUBLIC LICENSE — более подробную информацию см. в файле [LICENSE](LICENSE).
