@@ -32,3 +32,6 @@
 - [**Telegram Contact**](https://t.me/OFFpolice)
 - [**X (Twitter)**](https://twitter.com/OFFpolice2077)
 - [**Email**](offpolicedev@gmail.com)
+
+## Лицензия:
+Этот проект лицензируется по лицензии Apache-2.0 — более подробную информацию см. в файле ЛИЦЕНЗИИ.
