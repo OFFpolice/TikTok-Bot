@@ -26,3 +26,9 @@
 ## Отказ от ответственности:
 - Соблюдайте авторские права и убедитесь, что у вас есть право загружать и распространять контент.
 - Незаконная загрузка контента с нарушением авторских прав запрещена.
+
+## How to contact me:
+- [**Telegram Channel**](https://t.me/OFFpoliceChannel)
+- [**Telegram Contact**](https://t.me/OFFpolice)
+- [**X (Twitter)**](https://twitter.com/OFFpolice2077)
+- [**Email**](offpolicedev@gmail.com)
