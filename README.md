@@ -27,7 +27,7 @@
 - Соблюдайте авторские права и убедитесь, что у вас есть право загружать и распространять контент.
 - Незаконная загрузка контента с нарушением авторских прав запрещена.
 
-## How to contact me:
+## Как связаться со мной:
 - [**Telegram Channel**](https://t.me/OFFpoliceChannel)
 - [**Telegram Contact**](https://t.me/OFFpolice)
 - [**X (Twitter)**](https://twitter.com/OFFpolice2077)
