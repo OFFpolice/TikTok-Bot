@@ -1,31 +1,41 @@
-# TikTok Video Downloader Bot
+# TikTok Bot
 
-This Telegram bot allows users to download TikTok videos without watermarks. Follow the instructions below to get started:
+## Обзор
 
-## Instructions
+Этот Python-скрипт реализует телеграм-бота с использованием библиотеки aiogram для загрузки видео с TikTok без водяных знаков. Бот предоставляет пользовательский интерфейс для взаимодействия со ссылками на видео TikTok.
 
-1. Start the bot by sending `/start` in a chat with the bot.
-2. Copy the link of the TikTok video you want to download.
-3. Send the copied link to the bot.
+### Возможности:
+- Команда `/start` для запуска бота и получения инструкций.
+- Команда `/help` с пошаговыми инструкциями по загрузке видео TikTok без водяных знаков.
+- Инлайн-кнопки для навигации и выполнения дополнительных действий.
+- Проверка подписки для доступа к функциям бота после присоединения к каналу в Telegram.
 
-The bot will process the link and provide you with the video without a watermark.
+## Инструкция по использованию:
 
-## Usage
+1. Запустите бот, используя команду `/start`.
+2. Следуйте предоставленным инструкциям для загрузки видео TikTok без водяных знаков.
+3. Получите дополнительную помощь, используя инлайн-кнопку "🆘 Помощь".
 
-- Send `/start` to initiate the bot and receive instructions.
-- Use the provided inline keyboard for additional options.
-  - Press "🆘 Помощь" for detailed instructions.
-  - Navigate through the instructions using "🔙 Назад" and "🆘 Помощь" buttons.
+## Зависимости:
 
-## Important Notes
+- [aiogram](https://docs.aiogram.dev/)
+- [python-dotenv](https://pypi.org/project/python-dotenv/)
+- [download](https://pypi.org/project/download/)
 
-- Video size is limited to 20MB.
-- Ensure you have the right to download and share the content.
+## Установка:
 
-For any assistance, contact us at OFFpolice.t.me.
+1. Установите необходимые зависимости: `pip install aiogram python-dotenv download`.
+2. Настройте переменные окружения в файле `.env` с `channel_link`, `channel_id` и `bot_token`.
+3. Запустите скрипт.
 
-**Disclaimer**: Unauthorized downloading of copyrighted content is illegal. Make sure to download only your own content or content for which you have permission.
+## Отказ от ответственности:
 
----
+- Соблюдайте авторские права и убедитесь, что у вас есть право загружать и распространять контент.
+- Незаконная загрузка контента с нарушением авторских прав запрещена.
 
-*Developed with ❤️ by SaveTikTokVideoBot*
+## Команды бота:
+
+- `/start`: Инициализация бота и получение инструкций.
+- Инлайн-кнопки для выполнения дополнительных действий.
+
+Дополнительные детали можно узнать, посетив бота на Telegram: [@SaveTikTokVideoBot](https://t.me/SaveTikTokVideoBot)
