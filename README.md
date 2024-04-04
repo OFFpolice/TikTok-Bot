@@ -15,7 +15,7 @@
 
 ## Зависимости:
 - pip install aiogram==2.25.2
-- pip install yt-dlp==2024.3.19.232701.dev0
+- pip install yt-dlp==2024.4.3.233315.dev0
 - pip install python-dotenv==1.0.1
 
 ## Установка:
