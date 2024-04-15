@@ -118,7 +118,7 @@ async def content_download(message: types.Message):
             await bot.send_video(
                 chat_id=message.chat.id,
                 video=video_url,
-                caption=f"{description}\n\n<b>👤 Автор:</b> <a href='{channel_url}'>{channel_name}</a>\n<b>👁 Просмотров:</b> <code>{views}</code>\n<b>❤️ Лайков:</b> <code>{likes}</code>\n<b>💬 Комментариев:</b> <code>{comments}</code>\n<b>🔁 Поделились:</b> <code>{repost}</code>\n<b>📹 Открыть в</b> <a href='{message.text}'>TikTok</a>\n\n<b>🆔: @SaveTikTokVideoBot</b>",
+                caption=f"{description}\n\n<b>👤 Автор:</b> <a href='{channel_url}'>{channel_name}</a>\n<b>👁 Просмотров:</b> <code>{views}</code>\n<b>❤️ Лайков:</b> <code>{likes}</code>\n<b>💬 Комментариев:</b> <code>{comments}</code>\n<b>🔁 Поделились:</b> <code>{repost}</code>\n<b>📹 Открыть в</b> <a href='{post_link}'>TikTok</a>\n\n<b>🆔: @SaveTikTokVideoBot</b>",
                 parse_mode='HTML',
                 reply_markup=url_button
             )
