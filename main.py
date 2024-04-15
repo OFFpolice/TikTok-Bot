@@ -103,7 +103,7 @@ async def content_download(message: types.Message):
                 text=f'<b>Пожалуйста, подождите!\n<a href="{message.text}">Видеоролик</a> загружается... ⌛️⏳⌛️⏳</b>',
                 parse_mode='HTML'
             )
-            video_url, likes, comments, repost, views, description, channel_url, channel_name = await download_video(message.text)
+            video_url, likes, comments, repost, views, description, channel_url, channel_name, post_link = await download_video(message.text)
             url_button = types.InlineKeyboardMarkup()
             url_button.add(
                 types.InlineKeyboardButton(
