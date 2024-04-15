@@ -15,8 +15,8 @@
 
 ## Зависимости:
 - pip install aiogram==2.25.2
-- pip install yt-dlp==2024.4.3.233315.dev0
 - pip install python-dotenv==1.0.1
+- pip install yt-dlp
 
 ## Установка:
 1. Установите необходимые зависимости: `aiogram`, `python-dotenv`, `yt_dlp`.
