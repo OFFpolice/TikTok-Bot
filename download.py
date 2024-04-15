@@ -9,7 +9,8 @@ async def download_video(url):
         'outtmpl': '%(title)s.%(ext)s',
         'merge_output_format': 'mp4',
     }
-    
+
+
     async with aiohttp.ClientSession() as session:
         async with session.get(url) as response:
             if response.status == 200:
@@ -23,6 +24,7 @@ async def download_video(url):
                 likes = info_dict.get('like_count', 0)
                 comments = info_dict.get('comment_count', 0)
                 repost = info_dict.get('repost_count', 0)
-                return video_url, likes, comments, repost, views, description, channel_url, channel_name
+                post_link = info_dict.get('webpage_url', '')
+                return video_url, likes, comments, repost, views, description, channel_url, channel_name, post_link
             else:
                 return None
