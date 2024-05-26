@@ -36,3 +36,6 @@
 
 ## Лицензия:
 Этот проект лицензируется по лицензии GNU - более подробную информацию смотрите в файле [LICENSE](LICENSE).
+
+##Скриншоты:
+![Alt text](https://github.com/OFFpolice/TikTok-Bot/blob/main/photo/start.jpg)
