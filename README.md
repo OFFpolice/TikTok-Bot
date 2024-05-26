@@ -53,7 +53,7 @@
 
 ## Как связаться со мной:
 - [![Telegram Badge](https://img.shields.io/badge/Telegram-blue?style=flat&logo=telegram&logoColor=white)](https://t.me/OFFpolice)
-- [![Twitter Badge](https://img.shields.io/twitter/follow/)](https://x.com/OFFpolice2077)
+- [![Twitter Badge](https://img.shields.io/twitter/follow/:OFFpolice2077/)](https://x.com/OFFpolice2077)
 
 ## Лицензия:
 Этот проект лицензируется по лицензии GNU - более подробную информацию смотрите в файле [LICENSE](LICENSE).
