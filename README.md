@@ -38,10 +38,17 @@
 Этот проект лицензируется по лицензии GNU - более подробную информацию смотрите в файле [LICENSE](LICENSE).
 
 ## Скриншоты:
+- Start
 ![Alt text](https://github.com/OFFpolice/TikTok-Bot/blob/main/photo/start.jpg)
+- Help
 ![Alt text](https://github.com/OFFpolice/TikTok-Bot/blob/main/photo/help.jpg)
+- Subscription
 ![Alt text](https://github.com/OFFpolice/TikTok-Bot/blob/main/photo/subscription.jpg)
+- Subscription no
 ![Alt text](https://github.com/OFFpolice/TikTok-Bot/blob/main/photo/subscription_no.jpg)
+- Subscription yes
 ![Alt text](https://github.com/OFFpolice/TikTok-Bot/blob/main/photo/subscription_yes.jpg)
+- Downloads
 ![Alt text](https://github.com/OFFpolice/TikTok-Bot/blob/main/photo/downloads.jpg)
+- Video
 ![Alt text](https://github.com/OFFpolice/TikTok-Bot/blob/main/photo/downloads_video.jpg)
