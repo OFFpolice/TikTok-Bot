@@ -1,5 +1,4 @@
 # Made by: @OFFpolice
-# Все импорты зависимостей кода
 import re
 import os
 import logging
@@ -11,7 +10,7 @@ from random_id import sticker_id
 from download import download_video
 from aiogram import Bot, Dispatcher, executor, types
 
-# Настройка логирования для записи в файл run.log
+# Настройки логирования
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
@@ -26,6 +25,8 @@ load_dotenv(dotenv_path)
 # Получение значений переменных
 channel_link = os.environ.get("channel_link")
 channel_id = os.environ.get("channel_id")
+photo_link = os.environ.get("photo_link")
+video_link = os.environ.get("video_link")
 bot_token = os.environ.get("bot_token")
 
 # Инициализация бота и диспетчера
@@ -40,12 +41,10 @@ async def start_command(message: types.Message):
     markup = types.InlineKeyboardMarkup(row_width=1)
     help_button = types.InlineKeyboardButton("🆘 Помощь", callback_data="help")
     markup.add(help_button)
-    # URL видео для приветственного сообщения
-    video_url = "https://t.me/AEh4oo/90"
-    # Отправка приветственного сообщения с видео и кнопкой помощи
+    # Отправка видео сообщения с кнопкой помощи
     await bot.send_video(
         chat_id=message.chat.id,
-        video=video_url,
+        video=video_link,
         caption = f"<b>Здравствуйте, {message.chat.first_name}!</b>\n\n<i>С помощью этого бота вы сможете скачивать видео с</i> <b>«TikTok»</b> <i>без водяного знака!</i>\n\n<i>Скопируйте ссылку на видео</i> <b>«TikTok»</b> <i>и пришлите мне!</i>",
         parse_mode="HTML",
         reply_markup=markup
@@ -109,12 +108,10 @@ async def content_download(message: types.Message):
                     callback_data="check_subscription"
                 )
             )
-            # URL фото для сообщения с предложением подписаться
-            photo_url = "https://t.me/AEh4oo/92"
-            # Отправка сообщения с предложением подписаться
+            # Отправка фото сообщения с предложением подписаться
             await bot.send_photo(
                 chat_id=message.chat.id,
-                photo=photo_url,
+                photo=photo_link,
                 caption="<b>🔒 Для доступа к функциям бота, подпишитесь на наш канал!\n\nПосле подписки вернитесь в диалог с ботом и нажмите кнопку «Проверка».\nЗатем повторите свой запрос!</b>",
                 parse_mode="HTML",
                 reply_markup=status_button
