@@ -176,8 +176,8 @@ async def content_download(message: types.Message):
                 parse_mode="HTML"
             )
             # Логирование ошибки
-            print(f"Ошибка скачивания: {e}")
             logging.error("Ошибка скачивания: %s", e)
+            print(f"Ошибка скачивания: {e}")
             # Удаление исходного сообщения и сообщений стикера и прогресса
             await bot.delete_message(
                 chat_id=message.chat.id,
@@ -234,8 +234,8 @@ async def check_subscription(callback_query: types.CallbackQuery):
            )
     except Exception as e:
         # Обработка исключений и логирование ошибки
-        print(f"Ошибка {e}")
-        logging.error("Ошибка %s", e)
+        logging.error(e)
+        print(e)
 
 # Запуск бота
 if __name__ == "__main__":
