@@ -1,6 +1,6 @@
 # TikTok Bot
 
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://t.me/OFFpoliceChannel) [![aiogram 2](https://img.shields.io/badge/aiogram-2-%234FC3F7)](https://docs.aiogram.dev/en/v2.25.1/) [![yt-dlp](https://img.shields.io/badge/yt--dlp-2024.06.24-%23FF0000)](https://github.com/yt-dlp/yt-dlp) [![yt-dlp](https://img.shields.io/badge/yt--dlp-2024.5.25.232709.dev0-%230077B5)](https://github.com/yt-dlp/yt-dlp)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://t.me/OFFpoliceChannel) [![aiogram 2](https://img.shields.io/badge/aiogram-2-%234FC3F7)](https://docs.aiogram.dev/en/v2.25.1/) [![yt-dlp](https://img.shields.io/badge/yt--dlp-2024.5.25.232709.dev0-%230077B5)](https://github.com/yt-dlp/yt-dlp)
 
 ## Обзор:
 Этот Python-скрипт реализует телеграм-бота с использованием фреймворка [aiogram 2.25.1](https://docs.aiogram.dev/en/v2.25.1/) и библиотеки [yt-dlp](https://pypi.org/project/yt-dlp/) для загрузки видео с TikTok без водяных знаков. Бот предоставляет пользовательский интерфейс для взаимодействия со ссылками на видео TikTok в Telegram.
