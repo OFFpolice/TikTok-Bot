@@ -54,8 +54,10 @@
 ![Alt text](https://github.com/OFFpolice/TikTok-Bot/blob/main/photo/downloads_video.jpg)
 
 ## Как связаться со мной:
-- [![Telegram Badge](https://img.shields.io/badge/Telegram-blue?style=flat&logo=telegram&logoColor=white)](https://t.me/OFFpolice)
+- [![Telegram Badge](https://img.shields.io/badge/Telegram_Contact-blue?style=flat&logo=telegram&logoColor=white)](https://t.me/OFFpolice)
+- [![Telegram Badge](https://img.shields.io/badge/Telegram_Channel-blue?style=flat&logo=telegram&logoColor=white)](ttps://t.me/OFFpoliceChannel)
 - [![Twitter Badge](https://img.shields.io/twitter/follow/:OFFpolice2077)](https://x.com/OFFpolice2077)
+- [![Instagram Badge](https://img.shields.io/badge/-Instagram-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/offpolice2077)
 
 ## Лицензия:
 Этот проект лицензируется по лицензии GNU - более подробную информацию смотрите в файле [LICENSE](LICENSE).
