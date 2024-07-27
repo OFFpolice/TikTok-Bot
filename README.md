@@ -1,6 +1,6 @@
 # TikTok Bot
 
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://t.me/OFFpoliceChannel) [![aiogram 2](https://img.shields.io/badge/aiogram-2-%234FC3F7)](https://docs.aiogram.dev/en/v2.25.1/) [![yt-dlp](https://img.shields.io/badge/yt--dlp-2024.5.27-%230077B5)](https://github.com/yt-dlp/yt-dlp)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://t.me/OFFpolice2069) [![aiogram 2](https://img.shields.io/badge/aiogram-2-%234FC3F7)](https://docs.aiogram.dev/en/v2.25.1/) [![yt-dlp](https://img.shields.io/badge/yt--dlp-2024.5.27-%230077B5)](https://github.com/yt-dlp/yt-dlp)
 
 ## Обзор:
 Этот Python-скрипт реализует телеграм-бота с использованием фреймворка [aiogram 2.25.1](https://docs.aiogram.dev/en/v2.25.1/) и библиотеки [yt-dlp](https://pypi.org/project/yt-dlp/) для загрузки видео с TikTok без водяных знаков. Бот предоставляет пользовательский интерфейс для взаимодействия со ссылками на видео TikTok в Telegram.
@@ -43,7 +43,7 @@
 </p>
 
 ## Как связаться со мной:
-[![Telegram Badge](https://img.shields.io/badge/Contact-blue?style=flat&logo=telegram&logoColor=white)](https://t.me/OFFpolice) [![Telegram Badge](https://img.shields.io/badge/Channel-blue?style=flat&logo=telegram&logoColor=white)](ttps://t.me/OFFpoliceChannel) [![Twitter Badge](https://img.shields.io/twitter/follow/:OFFpolice2077)](https://x.com/OFFpolice2077) [![Instagram Badge](https://img.shields.io/badge/-Instagram-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/offpolice2077)
+[![Telegram Badge](https://img.shields.io/badge/Contact-blue?style=flat&logo=telegram&logoColor=white)](https://t.me/OFFpolice) [![Telegram Badge](https://img.shields.io/badge/Channel-blue?style=flat&logo=telegram&logoColor=white)](ttps://t.me/OFFpolice2069) [![Twitter Badge](https://img.shields.io/twitter/follow/:OFFpolice2077)](https://x.com/OFFpolice2077) [![Instagram Badge](https://img.shields.io/badge/-Instagram-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/offpolice2077)
 
 ## Лицензия:
 Этот проект лицензируется по лицензии GNU - более подробную информацию смотрите в файле [LICENSE](LICENSE).
